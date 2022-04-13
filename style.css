@@ -1,9 +1,16 @@
+:root {
+	--font: 'Montserrat', sans-serif; 
+	--primary-color: #000000;
+	--secondary-color: #b2adad;
+	--hover-color: #C78C19;
+}
+
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: var(--font);
 }
 
 header {
-	background: #000000;
+	background: var(--primary-color);
 	padding: 20px 0;
 }
 
@@ -26,14 +33,14 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: #b2adad;
+	color: var(--secondary-color);
 	font-weight: bold;
 	font-size: 22px;
 	text-decoration: none;
 }
 
 nav a:hover {
-	color: #C78C19;
+	color: var(--hover-color);
 	text-decoration: underline;
 }
 
@@ -51,12 +58,12 @@ nav a:hover {
 	margin: 0 1.5%;
 	padding: 30px 20px;
 	box-sizing: border-box;
-	border: 2px solid #000000;
+	border: 2px solid var(--primary-color);
 	border-radius: 10px;
 }
 
 .servicos li:hover {
-	border-color: #C78C19;
+	border-color: var(--hover-color);
 }
 
 
@@ -67,29 +74,29 @@ nav a:hover {
 .servicos h2 {
 	font-size: 30px;
 	font-weight: bold;
-	color: #000000
+	color: var(--primary-color)
 } 
 
 .servico-descricao {
 	font-size: 18px;
-	color: #000000
+	color: var(--primary-color)
 }
 
 .servico-preco {
 	font-size: 22px;
 	font-weight: bold;
 	margin-top: 10px;
-	color: #000000
+	color: var(--primary-color)
 }
 
 footer {
 	text-align: center;
-	background: #b2adad;
+	background: var(--secondary-color);
 	padding: 40px 0;
 }
 
 .copyright {
-	color: #000000;
+	color: var(--primary-color);
 	font-size: 13px;
 	margin: 20px 0 0;
 }
