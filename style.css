@@ -1,0 +1,98 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	background: #000000;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 50px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #b2adad;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.servicos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.servicos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.servicos li:hover {
+	border-color: #C78C19;
+}
+
+
+.servicos li:hover h2 {
+	font-size: 34px;
+}
+
+.servicos h2 {
+	font-size: 30px;
+	font-weight: bold;
+	color: #000000
+} 
+
+.servico-descricao {
+	font-size: 18px;
+	color: #000000
+}
+
+.servico-preco {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 10px;
+	color: #000000
+}
+
+footer {
+	text-align: center;
+	background: #b2adad;
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #000000;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+
+
